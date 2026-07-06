@@ -1,0 +1,43 @@
+date	2026-06-05 18:33:37
+bec	0.49 ./data/GraphExample.txt ./data/CLUSTERING/GraphExample.txt.clustOutput.txt -o0.1 -e0.01 -r0 -z0
+
+input_InfileGraph	./data/GraphExample.txt
+input_OutfileClust	./data/CLUSTERING/GraphExample.txt.clustOutput.txt
+input_RankedEdeges	0
+input_ClustZero	0
+input_sp	0.49
+input_so	0.1
+input_epsilon	0.01
+
+gnbv	9
+gnbe	13
+density	0.3611111111
+
+secondsP	0
+secondsO	0
+
+|C|	3
+
+omega_p	1.000000
+TP_p	8.700000
+TN_p	18.561538
+FP_p	3.907692
+FN_p	4.000000
+P_p	0.690055
+R_p	0.685039
+F0.5_p	0.687538
+Fsp_p	0.687617
+
+omega_o	0.000000
+TP_o	9.700000
+TN_o	18.561538
+FP_o	3.907692
+FN_o	3.000000
+P_o	0.712832
+R_o	0.763780
+F0.5_o	0.737427
+Fsp_o	0.736629
+
+m	0	1	2	3	4	!
+m	5	6	8	!
+m	7	!	6
